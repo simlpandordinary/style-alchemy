@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local test outputs（用户生成的样本和报告不该入库）
+samples_normalized/
+*-style-report.md
+*风格分析报告.md
+style_profile.yaml
+
+# 但保留 examples/ 目录里有意贡献的示例（如果将来加）
+!examples/
