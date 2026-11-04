@@ -22,14 +22,14 @@
 ├── README.en.md
 ├── SKILL.md
 ├── scripts/
-└── normalize_samples.py
+│   └── normalize_samples.py
 ├── references/
-├── analysis-framework.md
-├── sample-format.md
-├── style-profile-schema.md
-└── writing-skill-template.md
+│   ├── analysis-framework.md
+│   ├── sample-format.md
+│   ├── style-profile-schema.md
+│   └── writing-skill-template.md
 └── assets/
-└── banner.png
+    └── banner.png
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
