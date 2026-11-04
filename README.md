@@ -17,13 +17,25 @@
 ## 目录结构
 
 ```
-['.gitignore', 'LICENSE', 'README.en.md', 'README.md', 'SKILL.md', 'assets/banner.png', 'references/analysis-framework.md', 'references/sample-format.md', 'references/style-profile-schema.md', 'references/writing-skill-template.md', 'scripts/normalize_samples.py']
+├── .gitignore
+├── LICENSE
+├── README.en.md
+├── SKILL.md
+├── scripts/
+└── normalize_samples.py
+├── references/
+├── analysis-framework.md
+├── sample-format.md
+├── style-profile-schema.md
+└── writing-skill-template.md
+└── assets/
+└── banner.png
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `LICENSE` 为上游许可证原件。
 
 ## 安装
 
@@ -36,8 +48,6 @@ git clone https://github.com/simlpandordinary/style-alchemy.git ~/.workbuddy/ski
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/style-alchemy> 装成 Skill」。
 
 安装后用自然语言触发，例如「写作风格蒸馏 Style Alchemy」「用 style-alchemy 帮我处理这个任务」。
-
-上游仓库本身就是一个技能，已整仓收录。
 
 ## 版权
 
